@@ -1,0 +1,21 @@
+[2024-08-10T06:48:50.090+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-10T06:48:50.101+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETLWeatherPrint.load manual__2024-08-10T06:48:46.161335+00:00 [queued]>
+[2024-08-10T06:48:50.104+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETLWeatherPrint.load manual__2024-08-10T06:48:46.161335+00:00 [queued]>
+[2024-08-10T06:48:50.104+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-08-10T06:48:50.110+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): load> on 2024-08-10 06:48:46.161335+00:00
+[2024-08-10T06:48:50.114+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=1492) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-08-10T06:48:50.115+0000] {standard_task_runner.py:64} INFO - Started process 1494 to run task
+[2024-08-10T06:48:50.115+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ETLWeatherPrint', 'load', 'manual__2024-08-10T06:48:46.161335+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/01_ETLWeatherPrint.py', '--cfg-path', '/tmp/tmpcby_jv0c']
+[2024-08-10T06:48:50.116+0000] {standard_task_runner.py:91} INFO - Job 14: Subtask load
+[2024-08-10T06:48:50.143+0000] {task_command.py:426} INFO - Running <TaskInstance: ETLWeatherPrint.load manual__2024-08-10T06:48:46.161335+00:00 [running]> on host 101007b4e0e8
+[2024-08-10T06:48:50.194+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ETLWeatherPrint' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2024-08-10T06:48:46.161335+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-10T06:48:46.161335+00:00'
+[2024-08-10T06:48:50.194+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-10T06:48:50.195+0000] {logging_mixin.py:188} INFO - [{'location': 'Seoul', 'temp_c': 34.3, 'wind_kph': 13.0, 'timestamp': '2024-08-10T06:47:12+09:00'}]
+[2024-08-10T06:48:50.195+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-08-10T06:48:50.195+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-10T06:48:50.200+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=ETLWeatherPrint, task_id=load, run_id=manual__2024-08-10T06:48:46.161335+00:00, execution_date=20240810T064846, start_date=20240810T064850, end_date=20240810T064850
+[2024-08-10T06:48:50.216+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-10T06:48:50.225+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-10T06:48:50.226+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

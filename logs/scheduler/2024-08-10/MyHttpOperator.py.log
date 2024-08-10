@@ -1,0 +1,499 @@
+[2024-08-10T06:59:09.194+0000] {processor.py:161} INFO - Started process (PID=13516) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T06:59:09.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T06:59:09.195+0000] {logging_mixin.py:188} INFO - [2024-08-10T06:59:09.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T06:59:09.336+0000] {logging_mixin.py:188} INFO - [2024-08-10T06:59:09.333+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/MyHttpOperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/MyHttpOperator.py", line 55, in <module>
+    weather_dag = ETLWeatherPrint()
+                  ^^^^^^^^^^^^^^^
+NameError: name 'ETLWeatherPrint' is not defined
+[2024-08-10T06:59:09.338+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T06:59:09.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.156 seconds
+[2024-08-10T06:59:40.355+0000] {processor.py:161} INFO - Started process (PID=13580) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T06:59:40.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T06:59:40.358+0000] {logging_mixin.py:188} INFO - [2024-08-10T06:59:40.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T06:59:40.509+0000] {logging_mixin.py:188} INFO - [2024-08-10T06:59:40.506+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/MyHttpOperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/MyHttpOperator.py", line 55, in <module>
+    weather_dag = ETLWeatherPrint()
+                  ^^^^^^^^^^^^^^^
+NameError: name 'ETLWeatherPrint' is not defined
+[2024-08-10T06:59:40.511+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T06:59:40.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.171 seconds
+[2024-08-10T07:00:10.554+0000] {processor.py:161} INFO - Started process (PID=13644) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:00:10.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:00:10.557+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:00:10.557+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:00:10.710+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:00:10.708+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/MyHttpOperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/MyHttpOperator.py", line 55, in <module>
+    weather_dag = ETLWeatherPrint()
+                  ^^^^^^^^^^^^^^^
+NameError: name 'ETLWeatherPrint' is not defined
+[2024-08-10T07:00:10.712+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:00:10.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.174 seconds
+[2024-08-10T07:00:33.839+0000] {processor.py:161} INFO - Started process (PID=13683) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:00:33.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:00:33.842+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:00:33.841+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:00:34.016+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:00:34.013+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/MyHttpOperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/MyHttpOperator.py", line 55, in <module>
+    weather_dag = ETLWeatherPrint()
+                  ^^^^^^^^^^^^^^^
+NameError: name 'ETLWeatherPrint' is not defined
+[2024-08-10T07:00:34.019+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:00:34.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.199 seconds
+[2024-08-10T07:01:04.131+0000] {processor.py:161} INFO - Started process (PID=13747) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:01:04.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:01:04.133+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:04.133+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:01:04.309+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:04.305+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/MyHttpOperator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/MyHttpOperator.py", line 55, in <module>
+    weather_dag = ETLWeatherPrint()
+                  ^^^^^^^^^^^^^^^
+NameError: name 'ETLWeatherPrint' is not defined
+[2024-08-10T07:01:04.311+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:01:04.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.197 seconds
+[2024-08-10T07:01:10.966+0000] {processor.py:161} INFO - Started process (PID=13774) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:01:10.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:01:10.968+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:10.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:01:11.125+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:01:11.169+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:11.169+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:SimpleHttpTest
+[2024-08-10T07:01:11.173+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:11.173+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:SimpleHttpTest
+[2024-08-10T07:01:11.175+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:11.175+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:SimpleHttpTest
+[2024-08-10T07:01:11.176+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:11.175+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:01:11.180+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:11.180+0000] {dag.py:3111} INFO - Creating ORM DAG for SimpleHttpTest
+[2024-08-10T07:01:11.181+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:11.181+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:01:11.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.226 seconds
+[2024-08-10T07:01:41.282+0000] {processor.py:161} INFO - Started process (PID=13838) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:01:41.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:01:41.284+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:41.284+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:01:41.435+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:01:41.444+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:41.444+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:01:41.450+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:01:41.450+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:01:41.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.181 seconds
+[2024-08-10T07:02:12.404+0000] {processor.py:161} INFO - Started process (PID=13908) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:02:12.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:02:12.407+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:02:12.407+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:02:12.567+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:02:12.577+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:02:12.576+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:02:12.582+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:02:12.582+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:02:12.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.192 seconds
+[2024-08-10T07:02:42.720+0000] {processor.py:161} INFO - Started process (PID=13972) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:02:42.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:02:42.722+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:02:42.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:02:42.880+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:02:42.890+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:02:42.889+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:02:42.896+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:02:42.896+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:02:42.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.187 seconds
+[2024-08-10T07:03:13.049+0000] {processor.py:161} INFO - Started process (PID=14036) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:03:13.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:03:13.051+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:03:13.051+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:03:13.209+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:03:13.219+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:03:13.219+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:03:13.225+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:03:13.225+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:03:13.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.187 seconds
+[2024-08-10T07:03:43.292+0000] {processor.py:161} INFO - Started process (PID=14100) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:03:43.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:03:43.295+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:03:43.295+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:03:43.446+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:03:43.456+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:03:43.456+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:03:43.461+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:03:43.461+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:03:43.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.183 seconds
+[2024-08-10T07:04:13.600+0000] {processor.py:161} INFO - Started process (PID=14164) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:04:13.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:04:13.603+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:04:13.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:04:13.754+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:04:13.763+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:04:13.763+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:04:13.768+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:04:13.768+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:04:13.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.181 seconds
+[2024-08-10T07:04:44.751+0000] {processor.py:161} INFO - Started process (PID=14228) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:04:44.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:04:44.755+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:04:44.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:04:44.909+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:04:44.918+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:04:44.918+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:04:44.924+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:04:44.924+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:04:44.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.188 seconds
+[2024-08-10T07:05:15.936+0000] {processor.py:161} INFO - Started process (PID=14292) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:05:15.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:05:15.938+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:05:15.938+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:05:16.099+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:05:16.109+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:05:16.109+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:05:16.116+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:05:16.115+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:05:16.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.191 seconds
+[2024-08-10T07:05:46.358+0000] {processor.py:161} INFO - Started process (PID=14356) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:05:46.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:05:46.361+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:05:46.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:05:46.521+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:05:46.530+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:05:46.530+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:05:46.536+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:05:46.536+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:05:46.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.193 seconds
+[2024-08-10T07:06:16.613+0000] {processor.py:161} INFO - Started process (PID=14420) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:06:16.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:06:16.616+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:06:16.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:06:16.790+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:06:16.799+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:06:16.799+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:06:16.804+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:06:16.804+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:06:16.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.206 seconds
+[2024-08-10T07:06:46.906+0000] {processor.py:161} INFO - Started process (PID=14484) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:06:46.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:06:46.907+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:06:46.907+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:06:47.061+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:06:47.070+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:06:47.070+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:06:47.076+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:06:47.075+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:06:47.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.181 seconds
+[2024-08-10T07:07:18.032+0000] {processor.py:161} INFO - Started process (PID=14548) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:07:18.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:07:18.035+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:07:18.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:07:18.216+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:07:18.228+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:07:18.228+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:07:18.234+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:07:18.234+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:07:18.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.216 seconds
+[2024-08-10T07:07:48.327+0000] {processor.py:161} INFO - Started process (PID=14612) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:07:48.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:07:48.330+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:07:48.330+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:07:48.491+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:07:48.500+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:07:48.500+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:07:48.506+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:07:48.506+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:07:48.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.189 seconds
+[2024-08-10T07:08:19.464+0000] {processor.py:161} INFO - Started process (PID=14676) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:08:19.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:08:19.467+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:08:19.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:08:19.631+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:08:19.642+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:08:19.641+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:08:19.647+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:08:19.647+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:08:19.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.196 seconds
+[2024-08-10T07:08:50.610+0000] {processor.py:161} INFO - Started process (PID=14740) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:08:50.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:08:50.611+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:08:50.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:08:50.789+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:08:50.800+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:08:50.800+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:08:50.807+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:08:50.806+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:08:50.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.211 seconds
+[2024-08-10T07:09:21.753+0000] {processor.py:161} INFO - Started process (PID=14804) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:09:21.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:09:21.755+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:09:21.755+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:09:21.941+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:09:21.950+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:09:21.950+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:09:21.956+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:09:21.956+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:09:21.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.215 seconds
+[2024-08-10T07:09:52.817+0000] {processor.py:161} INFO - Started process (PID=14868) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:09:52.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:09:52.821+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:09:52.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:09:52.996+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:09:53.005+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:09:53.005+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:09:53.011+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:09:53.011+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:09:53.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.209 seconds
+[2024-08-10T07:10:23.080+0000] {processor.py:161} INFO - Started process (PID=14932) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:10:23.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:10:23.082+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:10:23.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:10:23.248+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:10:23.258+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:10:23.258+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:10:23.264+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:10:23.264+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:10:23.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.198 seconds
+[2024-08-10T07:10:54.170+0000] {processor.py:161} INFO - Started process (PID=14996) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:10:54.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:10:54.172+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:10:54.172+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:10:54.331+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:10:54.341+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:10:54.340+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:10:54.346+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:10:54.346+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:10:54.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.189 seconds
+[2024-08-10T07:11:25.242+0000] {processor.py:161} INFO - Started process (PID=15059) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:11:25.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:11:25.245+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:11:25.244+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:11:25.418+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:11:25.429+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:11:25.428+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:11:25.434+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:11:25.434+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:11:25.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.204 seconds
+[2024-08-10T07:11:55.618+0000] {processor.py:161} INFO - Started process (PID=15123) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:11:55.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:11:55.620+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:11:55.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:11:55.785+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:11:55.794+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:11:55.794+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:11:55.800+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:11:55.800+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:11:55.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.197 seconds
+[2024-08-10T07:12:26.671+0000] {processor.py:161} INFO - Started process (PID=15187) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:12:26.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:12:26.673+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:12:26.673+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:12:26.837+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:12:26.847+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:12:26.847+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:12:26.852+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:12:26.852+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:12:26.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.195 seconds
+[2024-08-10T07:12:56.994+0000] {processor.py:161} INFO - Started process (PID=15252) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:12:56.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:12:56.995+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:12:56.995+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:12:57.132+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:12:57.141+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:12:57.141+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:12:57.147+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:12:57.147+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:12:57.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.164 seconds
+[2024-08-10T07:13:28.037+0000] {processor.py:161} INFO - Started process (PID=15316) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:13:28.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:13:28.041+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:13:28.040+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:13:28.189+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:13:28.198+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:13:28.198+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:13:28.203+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:13:28.203+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:13:28.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.180 seconds
+[2024-08-10T07:13:58.291+0000] {processor.py:161} INFO - Started process (PID=15380) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:13:58.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:13:58.293+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:13:58.293+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:13:58.446+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:13:58.456+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:13:58.456+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:13:58.461+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:13:58.461+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:13:58.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.181 seconds
+[2024-08-10T07:14:28.526+0000] {processor.py:161} INFO - Started process (PID=15445) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:14:28.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:14:28.529+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:14:28.529+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:14:28.698+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:14:28.708+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:14:28.708+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:14:28.714+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:14:28.714+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:14:28.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.200 seconds
+[2024-08-10T07:14:58.824+0000] {processor.py:161} INFO - Started process (PID=15511) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:14:58.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:14:58.825+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:14:58.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:14:58.985+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:14:58.994+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:14:58.993+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:14:58.999+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:14:58.999+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:14:59.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.188 seconds
+[2024-08-10T07:15:29.965+0000] {processor.py:161} INFO - Started process (PID=15577) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:15:29.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:15:29.967+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:15:29.967+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:15:30.136+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:15:30.146+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:15:30.146+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:15:30.152+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:15:30.152+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:15:30.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.201 seconds
+[2024-08-10T07:16:00.209+0000] {processor.py:161} INFO - Started process (PID=15642) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:16:00.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:16:00.210+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:16:00.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:16:00.368+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:16:00.379+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:16:00.378+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:16:00.385+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:16:00.384+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:16:00.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.267 seconds
+[2024-08-10T07:16:30.484+0000] {processor.py:161} INFO - Started process (PID=15709) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:16:30.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:16:30.485+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:16:30.485+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:16:30.628+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:16:30.638+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:16:30.638+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:16:30.643+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:16:30.643+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:16:30.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.170 seconds
+[2024-08-10T07:17:00.693+0000] {processor.py:161} INFO - Started process (PID=15774) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:17:00.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:17:00.695+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:17:00.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:17:00.861+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:17:00.870+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:17:00.869+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:17:00.875+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:17:00.875+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:17:00.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.197 seconds
+[2024-08-10T07:17:31.010+0000] {processor.py:161} INFO - Started process (PID=15840) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:17:31.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:17:31.013+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:17:31.012+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:17:31.169+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:17:31.253+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:17:31.252+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:17:31.257+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:17:31.257+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:17:31.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.260 seconds
+[2024-08-10T07:18:01.378+0000] {processor.py:161} INFO - Started process (PID=15907) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:18:01.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:18:01.379+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:18:01.379+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:18:01.531+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:18:01.543+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:18:01.543+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:18:01.625+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:18:01.625+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:18:01.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.258 seconds
+[2024-08-10T07:18:32.444+0000] {processor.py:161} INFO - Started process (PID=15973) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:18:32.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:18:32.446+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:18:32.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:18:32.597+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:18:32.606+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:18:32.606+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:18:32.691+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:18:32.691+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:18:32.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.261 seconds
+[2024-08-10T07:19:02.944+0000] {processor.py:161} INFO - Started process (PID=16039) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:19:02.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:19:02.946+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:19:02.946+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:19:03.167+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:19:03.175+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:19:03.174+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:19:03.180+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:19:03.179+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:19:03.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.249 seconds
+[2024-08-10T07:19:33.455+0000] {processor.py:161} INFO - Started process (PID=16105) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:19:33.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:19:33.457+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:19:33.456+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:19:33.678+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:19:33.686+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:19:33.686+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:19:33.690+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:19:33.690+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:19:33.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.249 seconds
+[2024-08-10T07:20:03.854+0000] {processor.py:161} INFO - Started process (PID=16171) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:20:03.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:20:03.856+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:20:03.855+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:20:04.093+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:20:04.100+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:20:04.100+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:20:04.105+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:20:04.104+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:20:04.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.265 seconds
+[2024-08-10T07:20:34.169+0000] {processor.py:161} INFO - Started process (PID=16236) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:20:34.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:20:34.170+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:20:34.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:20:34.395+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:20:34.403+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:20:34.403+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:20:34.407+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:20:34.407+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:20:34.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.250 seconds
+[2024-08-10T07:21:04.525+0000] {processor.py:161} INFO - Started process (PID=16302) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:21:04.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:21:04.525+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:21:04.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:21:04.750+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:21:04.758+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:21:04.758+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:21:04.763+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:21:04.763+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:21:04.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.249 seconds
+[2024-08-10T07:21:34.931+0000] {processor.py:161} INFO - Started process (PID=16368) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:21:34.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:21:34.933+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:21:34.933+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:21:35.176+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:21:35.186+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:21:35.186+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:21:35.191+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:21:35.191+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:21:35.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.274 seconds
+[2024-08-10T07:22:05.301+0000] {processor.py:161} INFO - Started process (PID=16434) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:22:05.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:22:05.303+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:22:05.303+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:22:05.523+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:22:05.531+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:22:05.531+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:22:05.535+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:22:05.535+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:22:05.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.247 seconds
+[2024-08-10T07:22:35.697+0000] {processor.py:161} INFO - Started process (PID=16500) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:22:35.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:22:35.698+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:22:35.698+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:22:35.950+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:22:35.958+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:22:35.958+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:22:35.964+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:22:35.964+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:22:35.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.278 seconds
+[2024-08-10T07:23:06.174+0000] {processor.py:161} INFO - Started process (PID=16566) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:23:06.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:23:06.177+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:23:06.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:23:06.410+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:23:06.418+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:23:06.417+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:23:06.422+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:23:06.422+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:23:06.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.262 seconds
+[2024-08-10T07:23:36.591+0000] {processor.py:161} INFO - Started process (PID=16632) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:23:36.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:23:36.593+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:23:36.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:23:36.825+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:23:36.832+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:23:36.832+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:23:36.836+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:23:36.836+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:23:36.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.260 seconds
+[2024-08-10T07:24:06.996+0000] {processor.py:161} INFO - Started process (PID=16698) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:24:06.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:24:06.998+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:24:06.997+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:24:07.235+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:24:07.243+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:24:07.243+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:24:07.247+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:24:07.247+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:24:07.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.267 seconds
+[2024-08-10T07:24:37.492+0000] {processor.py:161} INFO - Started process (PID=16764) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:24:37.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:24:37.495+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:24:37.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:24:37.730+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:24:37.737+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:24:37.737+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:24:37.742+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:24:37.742+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:24:37.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.264 seconds
+[2024-08-10T07:25:07.899+0000] {processor.py:161} INFO - Started process (PID=16830) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:25:07.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:25:07.901+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:25:07.901+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:25:08.140+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:25:08.148+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:25:08.148+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:25:08.154+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:25:08.154+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:25:08.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.271 seconds
+[2024-08-10T07:25:38.319+0000] {processor.py:161} INFO - Started process (PID=16896) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:25:38.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:25:38.321+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:25:38.321+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:25:38.551+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:25:38.559+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:25:38.559+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:25:38.563+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:25:38.563+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:25:38.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.259 seconds
+[2024-08-10T07:26:08.682+0000] {processor.py:161} INFO - Started process (PID=16962) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:26:08.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:26:08.684+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:26:08.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:26:08.918+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:26:08.926+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:26:08.926+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:26:08.930+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:26:08.930+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:26:08.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.261 seconds
+[2024-08-10T07:26:39.173+0000] {processor.py:161} INFO - Started process (PID=17027) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:26:39.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:26:39.175+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:26:39.175+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:26:39.409+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:26:39.416+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:26:39.416+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:26:39.421+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:26:39.420+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:26:39.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.261 seconds
+[2024-08-10T07:27:09.540+0000] {processor.py:161} INFO - Started process (PID=17093) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:27:09.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:27:09.541+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:27:09.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:27:09.792+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:27:09.801+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:27:09.801+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:27:09.808+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:27:09.808+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:27:09.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.278 seconds
+[2024-08-10T07:27:40.015+0000] {processor.py:161} INFO - Started process (PID=17159) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:27:40.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:27:40.016+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:27:40.016+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:27:40.254+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:27:40.265+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:27:40.264+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:27:40.290+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:27:40.289+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:27:40.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.291 seconds
+[2024-08-10T07:28:10.494+0000] {processor.py:161} INFO - Started process (PID=17225) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:28:10.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:28:10.496+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:28:10.496+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:28:10.730+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:28:10.739+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:28:10.738+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:28:10.743+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:28:10.743+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:28:10.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.266 seconds
+[2024-08-10T07:28:40.785+0000] {processor.py:161} INFO - Started process (PID=17291) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:28:40.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:28:40.788+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:28:40.787+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:28:41.052+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:28:41.061+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:28:41.061+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:28:41.066+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:28:41.066+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:28:41.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.296 seconds
+[2024-08-10T07:29:11.522+0000] {processor.py:161} INFO - Started process (PID=17359) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:29:11.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:29:11.525+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:11.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:29:11.752+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:29:11.760+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:11.760+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:29:11.764+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:11.764+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:29:11.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.257 seconds
+[2024-08-10T07:29:42.297+0000] {processor.py:161} INFO - Started process (PID=17431) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:29:42.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:29:42.299+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:42.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:29:42.549+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:29:42.557+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:42.557+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:29:42.562+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:42.562+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:29:42.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.282 seconds
+[2024-08-10T07:30:12.760+0000] {processor.py:161} INFO - Started process (PID=17499) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:30:12.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:30:12.762+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:12.762+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:30:12.984+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:30:12.992+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:12.992+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:30:12.996+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:12.996+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:30:13.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.250 seconds
+[2024-08-10T07:30:43.293+0000] {processor.py:161} INFO - Started process (PID=17566) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:30:43.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:30:43.296+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:43.295+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:30:43.525+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:30:43.533+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:43.533+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:30:43.538+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:43.538+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:30:43.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.260 seconds
+[2024-08-10T07:31:13.686+0000] {processor.py:161} INFO - Started process (PID=17634) to work on /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:31:13.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/MyHttpOperator.py for tasks to queue
+[2024-08-10T07:31:13.689+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:31:13.688+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:31:13.912+0000] {processor.py:840} INFO - DAG(s) 'SimpleHttpTest' retrieved from /opt/airflow/dags/MyHttpOperator.py
+[2024-08-10T07:31:13.919+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:31:13.919+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:31:13.923+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:31:13.923+0000] {dag.py:3947} INFO - Setting next_dagrun for SimpleHttpTest to None, run_after=None
+[2024-08-10T07:31:13.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/MyHttpOperator.py took 0.252 seconds

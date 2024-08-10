@@ -1,0 +1,25 @@
+[2024-08-10T07:01:19.673+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-10T07:01:19.680+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: SimpleHttpTest.extract_data manual__2024-08-10T07:01:18.393999+00:00 [queued]>
+[2024-08-10T07:01:19.683+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: SimpleHttpTest.extract_data manual__2024-08-10T07:01:18.393999+00:00 [queued]>
+[2024-08-10T07:01:19.684+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-08-10T07:01:19.689+0000] {taskinstance.py:2330} INFO - Executing <Task(SimpleHttpOperator): extract_data> on 2024-08-10 07:01:18.393999+00:00
+[2024-08-10T07:01:19.692+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62: DeprecationWarning: This process (pid=1670) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-08-10T07:01:19.693+0000] {standard_task_runner.py:64} INFO - Started process 1672 to run task
+[2024-08-10T07:01:19.694+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'SimpleHttpTest', 'extract_data', 'manual__2024-08-10T07:01:18.393999+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/MyHttpOperator.py', '--cfg-path', '/tmp/tmpldkti0ss']
+[2024-08-10T07:01:19.694+0000] {standard_task_runner.py:91} INFO - Job 18: Subtask extract_data
+[2024-08-10T07:01:19.716+0000] {task_command.py:426} INFO - Running <TaskInstance: SimpleHttpTest.extract_data manual__2024-08-10T07:01:18.393999+00:00 [running]> on host 101007b4e0e8
+[2024-08-10T07:01:19.754+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='SimpleHttpTest' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-10T07:01:18.393999+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-10T07:01:18.393999+00:00'
+[2024-08-10T07:01:19.755+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-10T07:01:19.755+0000] {http.py:173} INFO - Calling HTTP method
+[2024-08-10T07:01:19.759+0000] {base.py:84} INFO - Using connection ID 'WeatherAPI' for task execution.
+[2024-08-10T07:01:19.763+0000] {base.py:84} INFO - Using connection ID 'WeatherAPI' for task execution.
+[2024-08-10T07:01:20.124+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-10T07:01:20.149+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=SimpleHttpTest, task_id=extract_data, run_id=manual__2024-08-10T07:01:18.393999+00:00, execution_date=20240810T070118, start_date=20240810T070119, end_date=20240810T070120
+[2024-08-10T07:01:20.175+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-10T07:01:20.183+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1297: AirflowProviderDeprecationWarning: Call to deprecated class SimpleHttpOperator. (Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.)
+  result = cls.__new__(cls)
+
+[2024-08-10T07:01:20.193+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-10T07:01:20.194+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

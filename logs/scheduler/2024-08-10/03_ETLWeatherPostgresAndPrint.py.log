@@ -1,0 +1,39 @@
+[2024-08-10T07:29:10.494+0000] {processor.py:161} INFO - Started process (PID=17357) to work on /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:29:10.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py for tasks to queue
+[2024-08-10T07:29:10.495+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:10.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:29:10.709+0000] {processor.py:840} INFO - DAG(s) 'ETLWeatherPostgresAndPrint' retrieved from /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:29:10.746+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:10.745+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:ETLWeatherPostgresAndPrint
+[2024-08-10T07:29:10.749+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:10.749+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:ETLWeatherPostgresAndPrint
+[2024-08-10T07:29:10.751+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:10.751+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:ETLWeatherPostgresAndPrint
+[2024-08-10T07:29:10.752+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:10.751+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:29:10.756+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:10.756+0000] {dag.py:3111} INFO - Creating ORM DAG for ETLWeatherPostgresAndPrint
+[2024-08-10T07:29:10.756+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:10.756+0000] {dag.py:3947} INFO - Setting next_dagrun for ETLWeatherPostgresAndPrint to None, run_after=None
+[2024-08-10T07:29:10.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py took 0.272 seconds
+[2024-08-10T07:29:41.039+0000] {processor.py:161} INFO - Started process (PID=17428) to work on /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:29:41.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py for tasks to queue
+[2024-08-10T07:29:41.041+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:41.040+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:29:41.299+0000] {processor.py:840} INFO - DAG(s) 'ETLWeatherPostgresAndPrint' retrieved from /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:29:41.307+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:41.307+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:29:41.312+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:29:41.312+0000] {dag.py:3947} INFO - Setting next_dagrun for ETLWeatherPostgresAndPrint to None, run_after=None
+[2024-08-10T07:29:41.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py took 0.286 seconds
+[2024-08-10T07:30:11.521+0000] {processor.py:161} INFO - Started process (PID=17496) to work on /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:30:11.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py for tasks to queue
+[2024-08-10T07:30:11.523+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:11.523+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:30:11.770+0000] {processor.py:840} INFO - DAG(s) 'ETLWeatherPostgresAndPrint' retrieved from /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:30:11.778+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:11.778+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:30:11.782+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:11.782+0000] {dag.py:3947} INFO - Setting next_dagrun for ETLWeatherPostgresAndPrint to None, run_after=None
+[2024-08-10T07:30:11.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py took 0.274 seconds
+[2024-08-10T07:30:42.128+0000] {processor.py:161} INFO - Started process (PID=17563) to work on /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:30:42.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py for tasks to queue
+[2024-08-10T07:30:42.130+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:42.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:30:42.364+0000] {processor.py:840} INFO - DAG(s) 'ETLWeatherPostgresAndPrint' retrieved from /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:30:42.372+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:42.372+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:30:42.378+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:30:42.378+0000] {dag.py:3947} INFO - Setting next_dagrun for ETLWeatherPostgresAndPrint to None, run_after=None
+[2024-08-10T07:30:42.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py took 0.264 seconds
+[2024-08-10T07:31:12.529+0000] {processor.py:161} INFO - Started process (PID=17631) to work on /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:31:12.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py for tasks to queue
+[2024-08-10T07:31:12.531+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:31:12.531+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:31:12.754+0000] {processor.py:840} INFO - DAG(s) 'ETLWeatherPostgresAndPrint' retrieved from /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py
+[2024-08-10T07:31:12.762+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:31:12.762+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-10T07:31:12.767+0000] {logging_mixin.py:188} INFO - [2024-08-10T07:31:12.767+0000] {dag.py:3947} INFO - Setting next_dagrun for ETLWeatherPostgresAndPrint to None, run_after=None
+[2024-08-10T07:31:12.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/03_ETLWeatherPostgresAndPrint.py took 0.252 seconds
